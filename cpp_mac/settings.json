@@ -27,5 +27,6 @@
     "files.exclude": {
         "**/*.dSYM": true,
         "**/*.out": true
-    }, // 格式化时调整include的顺序（按字母排序）
+    },
+    "C_Cpp.clang_format_fallbackStyle": "Google", // 格式化时使用Google代码规范
 }
